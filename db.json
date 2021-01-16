@@ -1,3 +1,160 @@
 {
-  "users": []
+  "users": [
+    {
+      "email": "adilsondias@gmail.com",
+      "password": "$2a$10$SzL38.B0svDquo7v51VDW.G6m6FNqCQS7R6vPWSZcz4NZ/Glgr2Ve",
+      "nome": "Adilson",
+      "telefone": "31-9947265",
+      "endereco": "Rua teste, nº 2",
+      "tipo": "Doador",
+      "id": 1
+    },
+    {
+      "email": "teste@gmail.com",
+      "password": "$2a$10$DuelzvY48rhsFYt9rYkzOOxzCyk4xGY2mMiM6rwV5elz81eMvNVve",
+      "nome": "Teste",
+      "telefone": "31-994770000",
+      "endereco": "Rua teste, nº 2",
+      "tipo": "Doador",
+      "id": 2
+    },
+    {
+      "email": "amanda@gmail.com",
+      "password": "$2a$10$BLhK.xNnxfaX/L7/HnUHU.g8akJO5aB8pq6RQ2UHuXwgLiReHbBLi",
+      "nome": "Amanda",
+      "telefone": "31-65465464",
+      "endereco": "Rua teste, nº 2",
+      "tipo": "Doador",
+      "id": 3
+    },
+    {
+      "email": "julia@gmail.com",
+      "password": "$2a$10$a1UnmlWgkN82xTiFCUOYW.vxe2HnfJ8RHKMvh864r0bFJorh1Emja",
+      "nome": "Julia",
+      "telefone": "31-65465464",
+      "Endere": "Rua teste, nº 2",
+      "tipo": "Doador",
+      "id": 4
+    },
+    {
+      "email": "lucas@gmail.com",
+      "password": "$2a$10$3/b.D2c.msVejs0c7WJTzedfc2B2zm876DYRm2zfT1hyQ3E/4z0mO",
+      "nome": "lucas",
+      "telefone": "31-65465464",
+      "Endere": "Rua teste, nº 2",
+      "tipo": "Doador",
+      "id": 5
+    },
+    {
+      "email": "renan@gmail.com",
+      "password": "$2a$10$gOgYIzJS991veP4MfcvUNurWpk3qLqa5bLNAUhwynccXd1VVRKSL.",
+      "nome": "Renan",
+      "telefone": "31-65465464",
+      "Endere": "Rua teste, nº 2",
+      "tipo": "Doador",
+      "id": 6
+    }
+  ],
+  "produtos": [
+    {
+      "nome": "Sofa",
+      "descricao": " Sofá dois lugares na cor verde ",
+      "estado": "Bom",
+      "endRetirada": "Rua  Um, Nº dois",
+      "endEntrega": "Rua doia, nº três",
+      "id": 1
+    },
+    {
+      "nome": "Sofa Dobravel",
+      "descricao": " Sofá dois lugares na cor verde ",
+      "estado": "Bom",
+      "endRetirada": "Rua  Um, Nº dois",
+      "endEntrega": "Rua doia, nº três",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "nome": "Móveis",
+      "descCategoria": " Movéis em geral ",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "nome": "Armário Cozinha",
+      "descricao": " Armário duas portas e um paneleiro ",
+      "estado": "Bom",
+      "imagem": "https://d1likr6vgtxkkw.cloudfront.net/Custom/Content/Products/03/12/0312_armario-kits-cozinha-titanium-05-portas-vidro-cinza-k5pv4g-c-colormaq_m2_637371692658682903.jpg",
+      "endRetirada": "Rua  Um, Nº dois",
+      "endEntrega": "Rua doia, nº três",
+      "categoriasId": 1,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "nome": "Mesa centro",
+      "descricao": " Mesa de centro cor da verde 40 cm de altura por 50cm de largura ",
+      "estado": "Bom",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_726367-MLB42251291226_062020-O.webp",
+      "endRetirada": "Rua  retirada , Nº02",
+      "endEntrega": "Rua doia, nº três",
+      "categoriasId": 1,
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "nome": "Abujur",
+      "descricao": " Abajur em ótimo estado ",
+      "estado": "Bom",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_693849-MLB42774650514_072020-F.webp",
+      "endRetirada": "Rua  retirada , Nº02",
+      "endEntrega": "Rua doia, nº três",
+      "categoriasId": 2,
+      "userId": 1,
+      "id": 6
+    }
+  ],
+  "categorias": [
+    {
+      "nome": "Móveis",
+      "descCategoria": " Movéis em geral ",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "nome": "Casa",
+      "descCategoria": " Utensílios para casa geral ",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "nome": "Eletrônicos e Celulares",
+      "descCategoria": " Eletrônicos de forma geral ",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "nome": "Esporte e Lazer",
+      "descCategoria": " Produtos e equipamentos para pratica de esportes em geral ",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "nome": "Animais de estimaçao",
+      "descCategoria": " Produtos e equipamentos para animais",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "nome": "Moda e Beleza",
+      "descCategoria": " Produos saldf al açlsdjf ça ",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "nome": "Artigos Infantis",
+      "descCategoria": " Produos saldf al açlsdjf ça ",
+      "userId": 1,
+      "id": 7
+    }
+  ]
 }
