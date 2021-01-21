@@ -53,6 +53,94 @@
       "Endere": "Rua teste, nº 2",
       "tipo": "Doador",
       "id": 6
+    },
+    {
+      "email": "Roberto@gmail.com",
+      "password": "$2a$10$3QHcQLt70.oNyG5unM.jw.EwruoVEX.U4Rx9kVFBOpU7hGWFxKy2S",
+      "nome": "Roberto",
+      "telefone": "31-65465464",
+      "Endere": "Rua do Roberto 1",
+      "id": 7
+    },
+    {
+      "email": "jose@gmail.com",
+      "password": "$2a$10$nOTawXvjetTpQvd8PPFNceup8SMNnl12dtdhJlkBDJqALEy2h/tdK",
+      "nome": "Jose",
+      "telefone": "31-65465464",
+      "Endere": "Rua do Jose nº 1",
+      "id": 8
+    },
+    {
+      "email": "mario@gmail.com",
+      "password": "$2a$10$HgWlpPLd9NiOrht.IvcJ3eZRUlkrSh7H3rR7bit6sVyIjvNspdHLK",
+      "nome": "Mario",
+      "telefone": "31-65465464",
+      "Endere": "Rua do Mário nº 23",
+      "id": 9
+    },
+    {
+      "email": "marcos@marcos.com",
+      "password": "$2a$10$AkLKnkV0L3MR2IF/Vg0ViOIUzsecQ.V270goZcRAUYLnz.1BPo3oa",
+      "name": "Marcos",
+      "lastName": "Paulo",
+      "phone": 555555555,
+      "id": 10
+    },
+    {
+      "email": "miranda@miranda.com",
+      "password": "$2a$10$mIvhF4R9FS0PRtmI1ftqdO.LnxArQFKJl7E.Ogpry5HxtONgK9Rbm",
+      "name": "Miranda",
+      "lastName": "Paulo",
+      "phone": 555555555,
+      "id": 11
+    },
+    {
+      "email": "rogerio@rogerio.com",
+      "password": "$2a$10$2dE9KVTLIwOfkrYHe.pq0.Yrtvc2VVLuN9iysJy5LNCpVh4TEBaZq",
+      "name": "Rogério",
+      "lastName": "Paulo",
+      "phone": 555555555,
+      "id": 12
+    },
+    {
+      "email": "andre@andre.com",
+      "password": "$2a$10$GSAteUFPGVHKlqk.eyH2RuhvjWCcG1cZn0k18L.a3TuWqz.qeUhf6",
+      "name": "André",
+      "lastName": "Paulo",
+      "phone": 555555555,
+      "id": 13
+    },
+    {
+      "email": "carlos@carlos.com",
+      "password": "$2a$10$WwdUndt1.8daeT7uffwpyeDEoCaPzQOEtaMqZmK1HvDigtl6DaRA2",
+      "name": "Carlos",
+      "lastName": "Miguel",
+      "phone": 555555555,
+      "id": 14
+    },
+    {
+      "email": "souza@souza.com",
+      "password": "$2a$10$9t.GFsbUL1pVuilvGmLcRuZzDHDTeBzWr8xOCmLCaGyQXpob5J7tm",
+      "name": "João",
+      "lastName": "Souza",
+      "phone": 555555555,
+      "id": 15
+    },
+    {
+      "email": "nick@marcos.com",
+      "password": "$2a$10$eSk6WlWESill3SLEApKcfeQddt2ByLYHQZnOrWI/.sZpGr6/zNJvG",
+      "name": "Nicolas",
+      "lastName": "Nauro",
+      "phone": 555555555,
+      "id": 16
+    },
+    {
+      "email": "leo@marcos.com",
+      "password": "$2a$10$Onombhx06JIjOVN3Y6kHXuKXU.7bX7ZTdBheFtDdSfe41fkE0wHHi",
+      "name": "Leandro",
+      "lastName": "Paulo",
+      "phone": 555555555,
+      "id": 17
     }
   ],
   "produtos": [
@@ -111,6 +199,22 @@
       "categoriasId": 2,
       "userId": 1,
       "id": 6
+    },
+    {
+      "donation": "Vestuário TESTS",
+      "brand": "NY",
+      "size": "XGG",
+      "donationState": "Novo",
+      "frontSide": "https://imgcentauro-a.akamaihd.net/500x500/9469584WA3/tenis-asics-gel-dedicate-6-masculino-img.jpg",
+      "backSide": "https://imgcentauro-a.akamaihd.net/500x500/9469584WA6/tenis-asics-gel-dedicate-6-masculino-img.jpg",
+      "side": "https://imgcentauro-a.akamaihd.net/500x500/9469584WA7/tenis-asics-gel-dedicate-6-masculino-img.jpg",
+      "description": "Coisa pra gente grande",
+      "state": "SP",
+      "cep": 55555555,
+      "number": 55,
+      "date": "24/05/21",
+      "userId": 1,
+      "id": 7
     }
   ],
   "categorias": [
@@ -155,8 +259,208 @@
       "descCategoria": " Produos saldf al açlsdjf ça ",
       "userId": 1,
       "id": 7
+    },
+    {
+      "nome": "Eletrônicos",
+      "descCategoria": " Eletrônicos em Geral",
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "nome": "Vestuário",
+      "descCategoria": "Vestuário",
+      "userId": 1,
+      "id": 9
     }
   ],
-
-  "cart": []
+  "cart": [
+    {
+      "teste": 1,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "teste": 2,
+      "userId": 1,
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "donation": "Vestuário teste",
+      "brand": "Nike",
+      "size": "P",
+      "donationState": "Novo",
+      "frontSide": "https://imgcentauro-a.akamaihd.net/500x500/94538105/tenis-adidas-lite-racer-20-feminino-img.jpg",
+      "backSide": "https://imgcentauro-a.akamaihd.net/900x900/94538105A5/tenis-adidas-lite-racer-20-feminino-img.jpg",
+      "side": "https://imgcentauro-a.akamaihd.net/900x900/94538105A4/tenis-adidas-lite-racer-20-feminino-img.jpg",
+      "description": "Bom demais da conta",
+      "state": "SP",
+      "cep": 55555555,
+      "number": 55,
+      "date": "24/05/21",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "donation": "Vestuário",
+      "brand": "Nike",
+      "size": "P",
+      "donationState": "Novo",
+      "frontSide": "https://imgcentauro-a.akamaihd.net/500x500/94538105/tenis-adidas-lite-racer-20-feminino-img.jpg",
+      "backSide": "https://imgcentauro-a.akamaihd.net/900x900/94538105A5/tenis-adidas-lite-racer-20-feminino-img.jpg",
+      "side": "https://imgcentauro-a.akamaihd.net/900x900/94538105A4/tenis-adidas-lite-racer-20-feminino-img.jpg",
+      "description": "Bom demais da conta",
+      "state": "SP",
+      "cep": 55555555,
+      "number": 55,
+      "date": "24/05/21",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "donation": "Vestuário",
+      "brand": "Puma",
+      "size": "M",
+      "donationState": "Usado",
+      "frontSide": "https://imgcentauro-a.akamaihd.net/900x900/91648031A2/tenis-puma-smash-v2-bdp-unissex-img.jpg",
+      "backSide": "https://imgcentauro-a.akamaihd.net/900x900/91648031A5/tenis-puma-smash-v2-bdp-unissex-img.jpg",
+      "side": "https://imgcentauro-a.akamaihd.net/58x58/91648002/tenis-puma-smash-v2-bdp-unissex-img.jpg",
+      "description": "Bom demais da conta",
+      "state": "SP",
+      "cep": 55555555,
+      "number": 55,
+      "date": "24/05/21",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "donation": "Vestuário",
+      "brand": "Adidas",
+      "size": "GG",
+      "donationState": "Novo",
+      "frontSide": "https://imgcentauro-a.akamaihd.net/500x500/94672931A2/tenis-adidas-fluidflow-masculino-img.jpg",
+      "backSide": "https://imgcentauro-a.akamaihd.net/500x500/94672931A6/tenis-adidas-fluidflow-masculino-img.jpg",
+      "side": "https://imgcentauro-a.akamaihd.net/500x500/94672931A4/tenis-adidas-fluidflow-masculino-img.jpg",
+      "description": "Nada bom",
+      "state": "SP",
+      "cep": 55555555,
+      "number": 55,
+      "date": "24/05/21",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "donation": "Vestuário",
+      "brand": "NY",
+      "size": "XGG",
+      "donationState": "Novo",
+      "frontSide": "https://imgcentauro-a.akamaihd.net/500x500/9469584WA3/tenis-asics-gel-dedicate-6-masculino-img.jpg",
+      "backSide": "https://imgcentauro-a.akamaihd.net/500x500/9469584WA6/tenis-asics-gel-dedicate-6-masculino-img.jpg",
+      "side": "https://imgcentauro-a.akamaihd.net/500x500/9469584WA7/tenis-asics-gel-dedicate-6-masculino-img.jpg",
+      "description": "Coisa pra gente grande",
+      "state": "SP",
+      "cep": 55555555,
+      "number": 55,
+      "date": "24/05/21",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "donation": "Vestuário",
+      "brand": "RipCurl",
+      "size": "P",
+      "donationState": "Novo",
+      "frontSide": "https://imgcentauro-a.akamaihd.net/500x500/M0874903/camiseta-rip-curl-vintage-wettie-ii-masculina-img.jpg",
+      "backSide": "https://imgcentauro-a.akamaihd.net/500x500/M0874903A1/camiseta-rip-curl-vintage-wettie-ii-masculina-img.jpg",
+      "side": "https://imgcentauro-a.akamaihd.net/500x500/M0874903A1/camiseta-rip-curl-vintage-wettie-ii-masculina-img.jpg",
+      "description": "Solitário surfista",
+      "state": "SP",
+      "cep": 55555555,
+      "number": 55,
+      "date": "24/05/21",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "donation": "Vestuário",
+      "brand": "Nova Onda",
+      "size": "M",
+      "donationState": "Usado",
+      "frontSide": "https://imgcentauro-a.akamaihd.net/500x500/M07WLTLE/sandalia-boa-onda-clog-anti-fungos-feminina-img.jpg",
+      "backSide": "https://imgcentauro-a.akamaihd.net/500x500/M07WLTLEA2/sandalia-boa-onda-clog-anti-fungos-feminina-img.jpg",
+      "side": "https://imgcentauro-a.akamaihd.net/500x500/M07WLTLE/sandalia-boa-onda-clog-anti-fungos-feminina-img.jpg",
+      "description": "Já foi melhor mas ainda dá pro gasto",
+      "state": "SP",
+      "cep": 55555555,
+      "number": 55,
+      "date": "24/05/21",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "donation": "Vestuário",
+      "brand": "Renner",
+      "size": "P",
+      "donationState": "Novo",
+      "frontSide": "url",
+      "backSide": "url",
+      "side": "url",
+      "description": "Comprei e nem usei, estou desapegando",
+      "state": "SP",
+      "cep": 55555555,
+      "number": 55,
+      "date": "24/05/21",
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "donation": "Eletrônicos",
+      "brand": "Motorola",
+      "model": "X50",
+      "donationState": "Novo",
+      "frontSide": "url",
+      "backSide": "url",
+      "side": "url",
+      "description": "Celular com alguns arranhões",
+      "state": "SP",
+      "cep": 55555555,
+      "number": 55,
+      "date": "24/05/21",
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "donation": "Eletrônicos",
+      "brand": "Apple",
+      "model": "IphoneX",
+      "donationState": "Novo",
+      "frontSide": "url",
+      "backSide": "url",
+      "side": "url",
+      "description": "Tela quebrada",
+      "state": "SP",
+      "cep": 55555555,
+      "number": 55,
+      "date": "24/05/21",
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "donation": "Eletrônicos",
+      "brand": "Samsung",
+      "model": "A51",
+      "donationState": "Novo",
+      "frontSide": "url",
+      "backSide": "url",
+      "side": "url",
+      "description": "Telefone novissímo",
+      "state": "SP",
+      "cep": 55555555,
+      "number": 55,
+      "date": "24/05/21",
+      "userId": 1,
+      "id": 11
+    }
+  ]
 }
