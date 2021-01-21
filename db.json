@@ -199,22 +199,6 @@
       "categoriasId": 2,
       "userId": 1,
       "id": 6
-    },
-    {
-      "donation": "Vestuário TESTS",
-      "brand": "NY",
-      "size": "XGG",
-      "donationState": "Novo",
-      "frontSide": "https://imgcentauro-a.akamaihd.net/500x500/9469584WA3/tenis-asics-gel-dedicate-6-masculino-img.jpg",
-      "backSide": "https://imgcentauro-a.akamaihd.net/500x500/9469584WA6/tenis-asics-gel-dedicate-6-masculino-img.jpg",
-      "side": "https://imgcentauro-a.akamaihd.net/500x500/9469584WA7/tenis-asics-gel-dedicate-6-masculino-img.jpg",
-      "description": "Coisa pra gente grande",
-      "state": "SP",
-      "cep": 55555555,
-      "number": 55,
-      "date": "24/05/21",
-      "userId": 1,
-      "id": 7
     }
   ],
   "categorias": [
@@ -293,6 +277,7 @@
   ],
   "products": [
     {
+      "type": "Camiseta",
       "donation": "Vestuário teste",
       "brand": "Nike",
       "size": "P",
@@ -309,6 +294,7 @@
       "id": 1
     },
     {
+      "type": "Camiseta",
       "donation": "Vestuário",
       "brand": "Nike",
       "size": "P",
@@ -325,6 +311,7 @@
       "id": 2
     },
     {
+      "type": "Calça",
       "donation": "Vestuário",
       "brand": "Puma",
       "size": "M",
@@ -341,6 +328,7 @@
       "id": 3
     },
     {
+      "type": "bermuda",
       "donation": "Vestuário",
       "brand": "Adidas",
       "size": "GG",
@@ -357,6 +345,7 @@
       "id": 4
     },
     {
+      "type": "vestido",
       "donation": "Vestuário",
       "brand": "NY",
       "size": "XGG",
@@ -373,6 +362,7 @@
       "id": 5
     },
     {
+      "type": "Calça",
       "donation": "Vestuário",
       "brand": "RipCurl",
       "size": "P",
@@ -389,6 +379,7 @@
       "id": 6
     },
     {
+      "type": "Camiseta",
       "donation": "Vestuário",
       "brand": "Nova Onda",
       "size": "M",
@@ -405,6 +396,7 @@
       "id": 7
     },
     {
+      "type": "tenis",
       "donation": "Vestuário",
       "brand": "Renner",
       "size": "P",
@@ -421,6 +413,7 @@
       "id": 8
     },
     {
+      "type": "Celular",
       "donation": "Eletrônicos",
       "brand": "Motorola",
       "model": "X50",
@@ -437,6 +430,7 @@
       "id": 9
     },
     {
+      "type": "Celular",
       "donation": "Eletrônicos",
       "brand": "Apple",
       "model": "IphoneX",
@@ -453,6 +447,7 @@
       "id": 10
     },
     {
+      "type": "Celular",
       "donation": "Eletrônicos",
       "brand": "Samsung",
       "model": "A51",
@@ -469,6 +464,7 @@
       "id": 11
     },
     {
+      "type": "Celular",
       "donation": "Eletrônicos",
       "brand": "LG",
       "model": "TV smart",
@@ -485,6 +481,7 @@
       "id": 12
     },
     {
+      "type": "Laptop",
       "donation": "Eletrônicos",
       "brand": "Lenovo",
       "model": "M",
@@ -501,6 +498,7 @@
       "id": 13
     },
     {
+      "type": "Celular",
       "donation": "Eletrônicos",
       "brand": "Ipad",
       "model": "P",
@@ -517,6 +515,7 @@
       "id": 14
     },
     {
+      "type": "Celular",
       "donation": "Eletrônicos",
       "brand": "Huawei",
       "model": "P10",
@@ -533,6 +532,7 @@
       "id": 15
     },
     {
+      "type": "Livro",
       "donation": "Livros",
       "author": "Vanessa da Mata",
       "title": "A caminhada sem fim",
@@ -549,6 +549,7 @@
       "id": 16
     },
     {
+      "type": "Livro",
       "donation": "Livros",
       "author": "Lulu Santos",
       "title": "Popstar",
@@ -565,6 +566,7 @@
       "id": 17
     },
     {
+      "type": "Livro",
       "donation": "Livros",
       "author": "Sandra Bullock",
       "title": "I am the legend",
@@ -581,6 +583,7 @@
       "id": 18
     },
     {
+      "type": "Livro",
       "donation": "Livros",
       "author": "Papa Franciso",
       "title": "Ave Maria",
@@ -597,6 +600,7 @@
       "id": 19
     },
     {
+      "type": "Livro",
       "donation": "Livros",
       "author": "Sasha",
       "title": "Filha da Xuxa",
@@ -613,6 +617,7 @@
       "id": 20
     },
     {
+      "type": "Livro",
       "donation": "Livros",
       "author": "Palmeiras FC",
       "title": "We dont have world title",
@@ -629,6 +634,7 @@
       "id": 21
     },
     {
+      "type": "Livro",
       "donation": "Livros",
       "author": "Nick Minaj",
       "title": "ME",
@@ -645,6 +651,7 @@
       "id": 22
     },
     {
+      "type": "Livro",
       "donation": "Livros",
       "author": "Ronaldinho",
       "title": "Rolês Aleatórios",
